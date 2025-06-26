@@ -40,6 +40,8 @@ class TimeTests: XCTestCase {
             params = CalculationMethod.singapore.params
         } else if method == "Turkey" {
             params = CalculationMethod.turkey.params
+        } else if method == "Russia" {
+            params = CalculationMethod.russia.params
         } else {
             params = CalculationMethod.other.params
         }
